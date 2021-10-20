@@ -1,0 +1,135 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 17px;
+}
+
+.container {
+  max-width: 350px;
+  width: 100%;
+  margin: 10% auto;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #191bc0;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.content {
+  width: 100%;
+  height: 350px;
+  max-height: 350px;
+  background-color: #fff;
+  overflow: auto;
+}
+
+.dateAndClear {
+  background-color: #d8f5df;
+  display: flex;
+  border-bottom: 1px solid rgb(240, 238, 238);
+  padding: 7px;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 13px;
+}
+
+.clear {
+  font-size: 12px;
+  font-family: "Ubuntu", sans-serif;
+  border: none;
+  background-color: #d8f5df;
+  color: rgba(190, 188, 188, 0.76);
+}
+
+.dateAndClear #date {
+  flex: 1;
+}
+
+.content ul {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.content li {
+  padding: 10px;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.co {
+  flex: 0.1;
+  line-height: 1.2;
+}
+
+.content li p,
+.content li input {
+  padding: 0;
+  margin: 0;
+  flex: 1;
+}
+.textInput {
+  margin-right: 10px !important;
+}
+
+.checkedLine {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.addToDo {
+  border-top: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.addToDo input {
+  margin: 0 0 0 7px;
+  width: 100%;
+  font-size: 15px;
+  border: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.fa-check-circle {
+  color: #5ef17e;
+}
+.fa-trash-alt:hover {
+  color: rgb(201, 29, 29);
+}
+.fa-edit:hover,
+.fa-trash-alt:hover,
+.fa-check-circle:hover,
+.fa-circle:hover,
+.fa-trash-alt:hover {
+  cursor: pointer;
+  /* text-shadow: 0 0 2px #e6d4d4; */
+}
+
+.clear:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.fa-edit {
+  padding-right: 8px;
+}
+
+.fa-check-circle,
+.fa-circle {
+  place-items: center start;
+}
+
+.text;
